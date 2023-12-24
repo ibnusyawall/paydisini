@@ -1,0 +1,22 @@
+# DS File
+.DS_Store
+*/.DS_Store
+
+# Dot Files
+.env
+.yarn/
+
+# Compressed File
+*.tgz
+
+# Lib output Directory
+lib
+
+# node_modules Directory
+node_modules
+
+# Lock files
+*.lock
+*-lock.json
+
+test.js

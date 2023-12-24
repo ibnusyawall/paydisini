@@ -1,0 +1,20 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "navigationLinks": {
+        "Author": "https://wa.me/6282299265151"
+    },
+    "sidebarLinks": {
+        "Join Our Community": "https://kodingkeun.com"
+    },
+    "tsconfig": "./tsconfig.json",
+    "entryPoints": ["src"],
+    "entryPointStrategy": "expand",
+    "name": "Unofficial Paydisini API",
+    "out": "docs",
+    "exclude": [
+        "node_modules/**/*.*",
+        "node_modules",
+        "**/node_modules/**",
+        "**node_modules/**/*.*"
+    ]
+}

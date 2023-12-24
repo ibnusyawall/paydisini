@@ -1,0 +1,44 @@
+{
+  "name": "@ibnusyawall/paydisini",
+  "version": "1.0.0",
+  "description": "Unofficial Paydisini API",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibnusyawall/paydisini.git"
+  },
+  "author": "ibnusyawall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibnusyawall/paydisini/issues"
+  },
+  "homepage": "https://github.com/ibnusyawall/paydisini#readme",
+  "scripts": {
+    "build": "tsc",
+    "build:all": "tsc && typedoc",
+    "build:docs": "typedoc --validation.notExported false --entryPointStrategy expand",
+    "build:tsc": "tsc",
+    "prepack": "tsc",
+    "prepare": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typedoc": "^0.25.4",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  }
+}
