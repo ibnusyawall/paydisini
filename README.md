@@ -15,7 +15,11 @@ npm install @ibnusyawall/paydisini
 
 Then import your code using:
 ``` ts 
+// using ECMAScript
 import { Paydisini } from '@ibnusyawall/paydisini'
+
+// or using CommonJS
+const { Paydisini } = require('@ibnusyawall/paydisini')
 ```
 
 ## Setup
